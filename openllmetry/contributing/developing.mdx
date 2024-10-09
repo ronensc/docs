@@ -28,7 +28,7 @@ nx run <package>:<command>
 ## Python
 
 We use `poetry` to manage packages, and each package is managed independently under its own directory under `/packages`.
-All instrumentations depends on `opentelemetry-semantic-conventions-ai`,
+All instrumentations depend on `opentelemetry-semantic-conventions-ai`,
 and `traceloop-sdk` depends on all the instrumentations.
 
 If adding a new instrumentation, make sure to use it in `traceloop-sdk`, and write proper tests.
